@@ -1,0 +1,39 @@
+{
+	"name": "mta-conf-parse",
+	"version": "0.1.0",
+	"description": "Parse MTA:SA mtaserver.conf into a JS object with normalized resource list.",
+	"main": "dist/index.js",
+	"scripts": {
+		"build": "tsc",
+		"watch": "tsc --watch",
+		"test-tsc": "tsc --noEmit --incremental false"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/dayzunited/mta-conf-parse.git"
+	},
+	"keywords": [
+		"mta",
+		"mtasa",
+		"mtaserver",
+		"parser",
+		"xml"
+	],
+	"author": "MTA DayZ United <mtadayzunited@gmail.com>",
+	"bugs": {
+		"url": "https://github.com/dayzunited/mta-conf-parse/issues"
+	},
+	"homepage": "https://github.com/dayzunited/mta-conf-parse#readme",
+	"license": "MIT",
+	"type": "commonjs",
+	"devDependencies": {
+		"@types/node": "^25.2.0",
+		"typescript": "^5.9.3"
+	},
+	"dependencies": {
+		"fast-xml-parser": "^5.3.4"
+	},
+	"engines": {
+		"node": ">=20"
+	}
+}

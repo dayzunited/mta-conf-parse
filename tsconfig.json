@@ -1,0 +1,24 @@
+{
+    "compilerOptions": {
+        "module": "CommonJS",
+        "noImplicitAny": false,
+        "removeComments": false,
+        "preserveConstEnums": true,
+        "sourceMap": true,
+        "declaration": false,
+        "outDir": "dist",
+        "target": "esnext",
+        "strict": true,
+        "resolveJsonModule": true,
+        "types": [
+            "node"
+        ],
+    },
+    "include": [
+        "./src/**/**.ts",
+    ],
+    "exclude": [
+        "node_modules",
+        "dist"
+    ]
+}
